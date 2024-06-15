@@ -1,0 +1,231 @@
+<html>
+<head>
+<title>demo_index.html</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #d5b778;}
+.s1 { color: #bcbec4;}
+.s2 { color: #bababa;}
+.s3 { color: #6aab73;}
+.s4 { color: #7a7e85;}
+.s5 { color: #2aacb8;}
+.s6 { color: #56a8f5;}
+.s7 { color: #cf8e6d;}
+</style>
+</head>
+<body bgcolor="#1e1f22">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+demo_index.html</font>
+</center></td></tr></table>
+<pre><span class="s0">&lt;!DOCTYPE </span><span class="s2">html</span><span class="s0">&gt;</span>
+<span class="s0">&lt;html&gt;</span>
+<span class="s0">&lt;head&gt;</span>
+  <span class="s0">&lt;meta </span><span class="s2">charset</span><span class="s3">=&quot;utf-8&quot;</span><span class="s0">/&gt;</span>
+  <span class="s0">&lt;title&gt;</span><span class="s1">iconfont Demo</span><span class="s0">&lt;/title&gt;</span>
+  <span class="s0">&lt;link </span><span class="s2">rel</span><span class="s3">=&quot;shortcut icon&quot; </span><span class="s2">href</span><span class="s3">=&quot;//img.alicdn.com/imgextra/i4/O1CN01Z5paLz1O0zuCC7osS_!!6000000001644-55-tps-83-82.svg&quot; </span><span class="s2">type</span><span class="s3">=&quot;image/x-icon&quot;</span><span class="s0">/&gt;</span>
+  <span class="s0">&lt;link </span><span class="s2">rel</span><span class="s3">=&quot;icon&quot; </span><span class="s2">type</span><span class="s3">=&quot;image/svg+xml&quot; </span><span class="s2">href</span><span class="s3">=&quot;//img.alicdn.com/imgextra/i4/O1CN01Z5paLz1O0zuCC7osS_!!6000000001644-55-tps-83-82.svg&quot;</span><span class="s0">/&gt;</span>
+  <span class="s0">&lt;link </span><span class="s2">rel</span><span class="s3">=&quot;stylesheet&quot; </span><span class="s2">href</span><span class="s3">=&quot;https://g.alicdn.com/thx/cube/1.3.2/cube.min.css&quot;</span><span class="s0">&gt;</span>
+  <span class="s0">&lt;link </span><span class="s2">rel</span><span class="s3">=&quot;stylesheet&quot; </span><span class="s2">href</span><span class="s3">=&quot;demo.css&quot;</span><span class="s0">&gt;</span>
+  <span class="s0">&lt;link </span><span class="s2">rel</span><span class="s3">=&quot;stylesheet&quot; </span><span class="s2">href</span><span class="s3">=&quot;iconfont.css&quot;</span><span class="s0">&gt;</span>
+  <span class="s0">&lt;script </span><span class="s2">src</span><span class="s3">=&quot;iconfont.js&quot;</span><span class="s0">&gt;&lt;/script&gt;</span>
+  <span class="s4">&lt;!-- jQuery --&gt;</span>
+  <span class="s0">&lt;script </span><span class="s2">src</span><span class="s3">=&quot;https://a1.alicdn.com/oss/uploads/2018/12/26/7bfddb60-08e8-11e9-9b04-53e73bb6408b.js&quot;</span><span class="s0">&gt;&lt;/script&gt;</span>
+  <span class="s4">&lt;!-- 代码高亮 --&gt;</span>
+  <span class="s0">&lt;script </span><span class="s2">src</span><span class="s3">=&quot;https://a1.alicdn.com/oss/uploads/2018/12/26/a3f714d0-08e6-11e9-8a15-ebf944d7534c.js&quot;</span><span class="s0">&gt;&lt;/script&gt;</span>
+  <span class="s0">&lt;style&gt;</span>
+    <span class="s1">.</span><span class="s0">main </span><span class="s1">.</span><span class="s0">logo </span><span class="s1">{</span>
+      <span class="s2">margin-top</span><span class="s1">: </span><span class="s5">0</span><span class="s1">;</span>
+      <span class="s2">height</span><span class="s1">: </span><span class="s3">auto</span><span class="s1">;</span>
+    <span class="s1">}</span>
+
+    <span class="s1">.</span><span class="s0">main </span><span class="s1">.</span><span class="s0">logo a </span><span class="s1">{</span>
+      <span class="s2">display</span><span class="s1">: </span><span class="s3">flex</span><span class="s1">;</span>
+      <span class="s2">align-items</span><span class="s1">: </span><span class="s3">center</span><span class="s1">;</span>
+    <span class="s1">}</span>
+
+    <span class="s1">.</span><span class="s0">main </span><span class="s1">.</span><span class="s0">logo </span><span class="s1">.</span><span class="s0">sub-title </span><span class="s1">{</span>
+      <span class="s2">margin-left</span><span class="s1">: </span><span class="s5">0.5</span><span class="s3">em</span><span class="s1">;</span>
+      <span class="s2">font-size</span><span class="s1">: </span><span class="s5">22</span><span class="s3">px</span><span class="s1">;</span>
+      <span class="s2">color</span><span class="s1">: </span><span class="s6">#fff</span><span class="s1">;</span>
+      <span class="s2">background</span><span class="s1">: </span><span class="s0">linear-gradient</span><span class="s1">(-</span><span class="s5">45</span><span class="s3">deg</span><span class="s1">, </span><span class="s6">#3967FF</span><span class="s1">, </span><span class="s6">#B500FE</span><span class="s1">);</span>
+      <span class="s2">-webkit-background-clip</span><span class="s1">: </span><span class="s3">text</span><span class="s1">;</span>
+      <span class="s2">-webkit-text-fill-color</span><span class="s1">: </span><span class="s3">transparent</span><span class="s1">;</span>
+    <span class="s1">}</span>
+  <span class="s0">&lt;/style&gt;</span>
+<span class="s0">&lt;/head&gt;</span>
+<span class="s0">&lt;body&gt;</span>
+  <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;main&quot;</span><span class="s0">&gt;</span>
+    <span class="s0">&lt;h1 </span><span class="s2">class</span><span class="s3">=&quot;logo&quot;</span><span class="s0">&gt;&lt;a </span><span class="s2">href</span><span class="s3">=&quot;https://www.iconfont.cn/&quot; </span><span class="s2">title</span><span class="s3">=&quot;iconfont 首页&quot; </span><span class="s2">target</span><span class="s3">=&quot;_blank&quot;</span><span class="s0">&gt;</span>
+      <span class="s0">&lt;img </span><span class="s2">width</span><span class="s3">=&quot;200&quot; </span><span class="s2">src</span><span class="s3">=&quot;https://img.alicdn.com/imgextra/i3/O1CN01Mn65HV1FfSEzR6DKv_!!6000000000514-55-tps-228-59.svg&quot;</span><span class="s0">&gt;</span>
+      
+    <span class="s0">&lt;/a&gt;&lt;/h1&gt;</span>
+    <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;nav-tabs&quot;</span><span class="s0">&gt;</span>
+      <span class="s0">&lt;ul </span><span class="s2">id</span><span class="s3">=&quot;tabs&quot; </span><span class="s2">class</span><span class="s3">=&quot;dib-box&quot;</span><span class="s0">&gt;</span>
+        <span class="s0">&lt;li </span><span class="s2">class</span><span class="s3">=&quot;dib active&quot;</span><span class="s0">&gt;&lt;span&gt;</span><span class="s1">Unicode</span><span class="s0">&lt;/span&gt;&lt;/li&gt;</span>
+        <span class="s0">&lt;li </span><span class="s2">class</span><span class="s3">=&quot;dib&quot;</span><span class="s0">&gt;&lt;span&gt;</span><span class="s1">Font class</span><span class="s0">&lt;/span&gt;&lt;/li&gt;</span>
+        <span class="s0">&lt;li </span><span class="s2">class</span><span class="s3">=&quot;dib&quot;</span><span class="s0">&gt;&lt;span&gt;</span><span class="s1">Symbol</span><span class="s0">&lt;/span&gt;&lt;/li&gt;</span>
+      <span class="s0">&lt;/ul&gt;</span>
+      
+    <span class="s0">&lt;/div&gt;</span>
+    <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;tab-container&quot;</span><span class="s0">&gt;</span>
+      <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;content unicode&quot; </span><span class="s2">style</span><span class="s3">=&quot;</span><span class="s2">display</span><span class="s1">: </span><span class="s3">block</span><span class="s1">;</span><span class="s3">&quot;</span><span class="s0">&gt;</span>
+          <span class="s0">&lt;ul </span><span class="s2">class</span><span class="s3">=&quot;icon_lists dib-box&quot;</span><span class="s0">&gt;</span>
+          
+            <span class="s0">&lt;li </span><span class="s2">class</span><span class="s3">=&quot;dib&quot;</span><span class="s0">&gt;</span>
+              <span class="s0">&lt;span </span><span class="s2">class</span><span class="s3">=&quot;icon iconfont&quot;</span><span class="s0">&gt;</span><span class="s6">&amp;#xe701;</span><span class="s0">&lt;/span&gt;</span>
+                <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;name&quot;</span><span class="s0">&gt;</span><span class="s1">用户</span><span class="s0">&lt;/div&gt;</span>
+                <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;code-name&quot;</span><span class="s0">&gt;</span><span class="s6">&amp;amp;</span><span class="s1">#xe701;</span><span class="s0">&lt;/div&gt;</span>
+              <span class="s0">&lt;/li&gt;</span>
+          
+          <span class="s0">&lt;/ul&gt;</span>
+          <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;article markdown&quot;</span><span class="s0">&gt;</span>
+          <span class="s0">&lt;h2 </span><span class="s2">id</span><span class="s3">=&quot;unicode-&quot;</span><span class="s0">&gt;</span><span class="s1">Unicode 引用</span><span class="s0">&lt;/h2&gt;</span>
+          <span class="s0">&lt;hr&gt;</span>
+
+          <span class="s0">&lt;p&gt;</span><span class="s1">Unicode 是字体在网页端最原始的应用方式，特点是：</span><span class="s0">&lt;/p&gt;</span>
+          <span class="s0">&lt;ul&gt;</span>
+            <span class="s0">&lt;li&gt;</span><span class="s1">支持按字体的方式去动态调整图标大小，颜色等等。</span><span class="s0">&lt;/li&gt;</span>
+            <span class="s0">&lt;li&gt;</span><span class="s1">默认情况下不支持多色，直接添加多色图标会自动去色。</span><span class="s0">&lt;/li&gt;</span>
+          <span class="s0">&lt;/ul&gt;</span>
+          <span class="s0">&lt;blockquote&gt;</span>
+            <span class="s0">&lt;p&gt;</span><span class="s1">注意：新版 iconfont 支持两种方式引用多色图标：SVG symbol 引用方式和彩色字体图标模式。（使用彩色字体图标需要在「编辑项目」中开启「彩色」选项后并重新生成。）</span><span class="s0">&lt;/p&gt;</span>
+          <span class="s0">&lt;/blockquote&gt;</span>
+          <span class="s0">&lt;p&gt;</span><span class="s1">Unicode 使用步骤如下：</span><span class="s0">&lt;/p&gt;</span>
+          <span class="s0">&lt;h3 </span><span class="s2">id</span><span class="s3">=&quot;-font-face&quot;</span><span class="s0">&gt;</span><span class="s1">第一步：拷贝项目下面生成的 </span><span class="s0">&lt;code&gt;</span><span class="s1">@font-face</span><span class="s0">&lt;/code&gt;&lt;/h3&gt;</span>
+<span class="s0">&lt;pre&gt;&lt;code </span><span class="s2">class</span><span class="s3">=&quot;language-css&quot;</span>
+<span class="s0">&gt;</span><span class="s1">@font-face {</span>
+  <span class="s1">font-family: 'iconfont';</span>
+  <span class="s1">src: url('iconfont.ttf?t=1715436682712') format('truetype');</span>
+<span class="s1">}</span>
+<span class="s0">&lt;/code&gt;&lt;/pre&gt;</span>
+          <span class="s0">&lt;h3 </span><span class="s2">id</span><span class="s3">=&quot;-iconfont-&quot;</span><span class="s0">&gt;</span><span class="s1">第二步：定义使用 iconfont 的样式</span><span class="s0">&lt;/h3&gt;</span>
+<span class="s0">&lt;pre&gt;&lt;code </span><span class="s2">class</span><span class="s3">=&quot;language-css&quot;</span>
+<span class="s0">&gt;</span><span class="s1">.iconfont {</span>
+  <span class="s1">font-family: &quot;iconfont&quot; !important;</span>
+  <span class="s1">font-size: 16px;</span>
+  <span class="s1">font-style: normal;</span>
+  <span class="s1">-webkit-font-smoothing: antialiased;</span>
+  <span class="s1">-moz-osx-font-smoothing: grayscale;</span>
+<span class="s1">}</span>
+<span class="s0">&lt;/code&gt;&lt;/pre&gt;</span>
+          <span class="s0">&lt;h3 </span><span class="s2">id</span><span class="s3">=&quot;-&quot;</span><span class="s0">&gt;</span><span class="s1">第三步：挑选相应图标并获取字体编码，应用于页面</span><span class="s0">&lt;/h3&gt;</span>
+<span class="s0">&lt;pre&gt;</span>
+<span class="s0">&lt;code </span><span class="s2">class</span><span class="s3">=&quot;language-html&quot;</span>
+<span class="s0">&gt;</span><span class="s6">&amp;lt;</span><span class="s1">span class=&quot;iconfont&quot;</span><span class="s6">&amp;gt;&amp;amp;</span><span class="s1">#x33;</span><span class="s6">&amp;lt;</span><span class="s1">/span</span><span class="s6">&amp;gt;</span>
+<span class="s0">&lt;/code&gt;&lt;/pre&gt;</span>
+          <span class="s0">&lt;blockquote&gt;</span>
+            <span class="s0">&lt;p&gt;</span><span class="s1">&quot;iconfont&quot; 是你项目下的 font-family。可以通过编辑项目查看，默认是 &quot;iconfont&quot;。</span><span class="s0">&lt;/p&gt;</span>
+          <span class="s0">&lt;/blockquote&gt;</span>
+          <span class="s0">&lt;/div&gt;</span>
+      <span class="s0">&lt;/div&gt;</span>
+      <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;content font-class&quot;</span><span class="s0">&gt;</span>
+        <span class="s0">&lt;ul </span><span class="s2">class</span><span class="s3">=&quot;icon_lists dib-box&quot;</span><span class="s0">&gt;</span>
+          
+          <span class="s0">&lt;li </span><span class="s2">class</span><span class="s3">=&quot;dib&quot;</span><span class="s0">&gt;</span>
+            <span class="s0">&lt;span </span><span class="s2">class</span><span class="s3">=&quot;icon iconfont icon-yonghu&quot;</span><span class="s0">&gt;&lt;/span&gt;</span>
+            <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;name&quot;</span><span class="s0">&gt;</span>
+              <span class="s1">用户</span>
+            <span class="s0">&lt;/div&gt;</span>
+            <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;code-name&quot;</span><span class="s0">&gt;</span><span class="s1">.icon-yonghu</span>
+            <span class="s0">&lt;/div&gt;</span>
+          <span class="s0">&lt;/li&gt;</span>
+          
+        <span class="s0">&lt;/ul&gt;</span>
+        <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;article markdown&quot;</span><span class="s0">&gt;</span>
+        <span class="s0">&lt;h2 </span><span class="s2">id</span><span class="s3">=&quot;font-class-&quot;</span><span class="s0">&gt;</span><span class="s1">font-class 引用</span><span class="s0">&lt;/h2&gt;</span>
+        <span class="s0">&lt;hr&gt;</span>
+
+        <span class="s0">&lt;p&gt;</span><span class="s1">font-class 是 Unicode 使用方式的一种变种，主要是解决 Unicode 书写不直观，语意不明确的问题。</span><span class="s0">&lt;/p&gt;</span>
+        <span class="s0">&lt;p&gt;</span><span class="s1">与 Unicode 使用方式相比，具有如下特点：</span><span class="s0">&lt;/p&gt;</span>
+        <span class="s0">&lt;ul&gt;</span>
+          <span class="s0">&lt;li&gt;</span><span class="s1">相比于 Unicode 语意明确，书写更直观。可以很容易分辨这个 icon 是什么。</span><span class="s0">&lt;/li&gt;</span>
+          <span class="s0">&lt;li&gt;</span><span class="s1">因为使用 class 来定义图标，所以当要替换图标时，只需要修改 class 里面的 Unicode 引用。</span><span class="s0">&lt;/li&gt;</span>
+        <span class="s0">&lt;/ul&gt;</span>
+        <span class="s0">&lt;p&gt;</span><span class="s1">使用步骤如下：</span><span class="s0">&lt;/p&gt;</span>
+        <span class="s0">&lt;h3 </span><span class="s2">id</span><span class="s3">=&quot;-fontclass-&quot;</span><span class="s0">&gt;</span><span class="s1">第一步：引入项目下面生成的 fontclass 代码：</span><span class="s0">&lt;/h3&gt;</span>
+<span class="s0">&lt;pre&gt;&lt;code </span><span class="s2">class</span><span class="s3">=&quot;language-html&quot;</span><span class="s0">&gt;</span><span class="s6">&amp;lt;</span><span class="s1">link rel=&quot;stylesheet&quot; href=&quot;./iconfont.css&quot;</span><span class="s6">&amp;gt;</span>
+<span class="s0">&lt;/code&gt;&lt;/pre&gt;</span>
+        <span class="s0">&lt;h3 </span><span class="s2">id</span><span class="s3">=&quot;-&quot;</span><span class="s0">&gt;</span><span class="s1">第二步：挑选相应图标并获取类名，应用于页面：</span><span class="s0">&lt;/h3&gt;</span>
+<span class="s0">&lt;pre&gt;&lt;code </span><span class="s2">class</span><span class="s3">=&quot;language-html&quot;</span><span class="s0">&gt;</span><span class="s6">&amp;lt;</span><span class="s1">span class=&quot;iconfont icon-xxx&quot;</span><span class="s6">&amp;gt;&amp;lt;</span><span class="s1">/span</span><span class="s6">&amp;gt;</span>
+<span class="s0">&lt;/code&gt;&lt;/pre&gt;</span>
+        <span class="s0">&lt;blockquote&gt;</span>
+          <span class="s0">&lt;p&gt;</span><span class="s1">&quot;</span>
+            <span class="s1">iconfont&quot; 是你项目下的 font-family。可以通过编辑项目查看，默认是 &quot;iconfont&quot;。</span><span class="s0">&lt;/p&gt;</span>
+        <span class="s0">&lt;/blockquote&gt;</span>
+      <span class="s0">&lt;/div&gt;</span>
+      <span class="s0">&lt;/div&gt;</span>
+      <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;content symbol&quot;</span><span class="s0">&gt;</span>
+          <span class="s0">&lt;ul </span><span class="s2">class</span><span class="s3">=&quot;icon_lists dib-box&quot;</span><span class="s0">&gt;</span>
+          
+            <span class="s0">&lt;li </span><span class="s2">class</span><span class="s3">=&quot;dib&quot;</span><span class="s0">&gt;</span>
+                <span class="s0">&lt;svg </span><span class="s2">class</span><span class="s3">=&quot;icon svg-icon&quot; </span><span class="s2">aria-hidden</span><span class="s3">=&quot;true&quot;</span><span class="s0">&gt;</span>
+                  <span class="s0">&lt;use </span><span class="s2">xlink:href</span><span class="s3">=&quot;#icon-yonghu&quot;</span><span class="s0">&gt;&lt;/use&gt;</span>
+                <span class="s0">&lt;/svg&gt;</span>
+                <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;name&quot;</span><span class="s0">&gt;</span><span class="s1">用户</span><span class="s0">&lt;/div&gt;</span>
+                <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;code-name&quot;</span><span class="s0">&gt;</span><span class="s1">#icon-yonghu</span><span class="s0">&lt;/div&gt;</span>
+            <span class="s0">&lt;/li&gt;</span>
+          
+          <span class="s0">&lt;/ul&gt;</span>
+          <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;article markdown&quot;</span><span class="s0">&gt;</span>
+          <span class="s0">&lt;h2 </span><span class="s2">id</span><span class="s3">=&quot;symbol-&quot;</span><span class="s0">&gt;</span><span class="s1">Symbol 引用</span><span class="s0">&lt;/h2&gt;</span>
+          <span class="s0">&lt;hr&gt;</span>
+
+          <span class="s0">&lt;p&gt;</span><span class="s1">这是一种全新的使用方式，应该说这才是未来的主流，也是平台目前推荐的用法。相关介绍可以参考这篇</span><span class="s0">&lt;a </span><span class="s2">href</span><span class="s3">=&quot;&quot;</span><span class="s0">&gt;</span><span class="s1">文章</span><span class="s0">&lt;/a&gt;</span>
+            <span class="s1">这种用法其实是做了一个 SVG 的集合，与另外两种相比具有如下特点：</span><span class="s0">&lt;/p&gt;</span>
+          <span class="s0">&lt;ul&gt;</span>
+            <span class="s0">&lt;li&gt;</span><span class="s1">支持多色图标了，不再受单色限制。</span><span class="s0">&lt;/li&gt;</span>
+            <span class="s0">&lt;li&gt;</span><span class="s1">通过一些技巧，支持像字体那样，通过 </span><span class="s0">&lt;code&gt;</span><span class="s1">font-size</span><span class="s0">&lt;/code&gt;</span><span class="s1">, </span><span class="s0">&lt;code&gt;</span><span class="s1">color</span><span class="s0">&lt;/code&gt; </span><span class="s1">来调整样式。</span><span class="s0">&lt;/li&gt;</span>
+            <span class="s0">&lt;li&gt;</span><span class="s1">兼容性较差，支持 IE9+，及现代浏览器。</span><span class="s0">&lt;/li&gt;</span>
+            <span class="s0">&lt;li&gt;</span><span class="s1">浏览器渲染 SVG 的性能一般，还不如 png。</span><span class="s0">&lt;/li&gt;</span>
+          <span class="s0">&lt;/ul&gt;</span>
+          <span class="s0">&lt;p&gt;</span><span class="s1">使用步骤如下：</span><span class="s0">&lt;/p&gt;</span>
+          <span class="s0">&lt;h3 </span><span class="s2">id</span><span class="s3">=&quot;-symbol-&quot;</span><span class="s0">&gt;</span><span class="s1">第一步：引入项目下面生成的 symbol 代码：</span><span class="s0">&lt;/h3&gt;</span>
+<span class="s0">&lt;pre&gt;&lt;code </span><span class="s2">class</span><span class="s3">=&quot;language-html&quot;</span><span class="s0">&gt;</span><span class="s6">&amp;lt;</span><span class="s1">script src=&quot;./iconfont.js&quot;</span><span class="s6">&amp;gt;&amp;lt;</span><span class="s1">/script</span><span class="s6">&amp;gt;</span>
+<span class="s0">&lt;/code&gt;&lt;/pre&gt;</span>
+          <span class="s0">&lt;h3 </span><span class="s2">id</span><span class="s3">=&quot;-css-&quot;</span><span class="s0">&gt;</span><span class="s1">第二步：加入通用 CSS 代码（引入一次就行）：</span><span class="s0">&lt;/h3&gt;</span>
+<span class="s0">&lt;pre&gt;&lt;code </span><span class="s2">class</span><span class="s3">=&quot;language-html&quot;</span><span class="s0">&gt;</span><span class="s6">&amp;lt;</span><span class="s1">style</span><span class="s6">&amp;gt;</span>
+<span class="s1">.icon {</span>
+  <span class="s1">width: 1em;</span>
+  <span class="s1">height: 1em;</span>
+  <span class="s1">vertical-align: -0.15em;</span>
+  <span class="s1">fill: currentColor;</span>
+  <span class="s1">overflow: hidden;</span>
+<span class="s1">}</span>
+<span class="s6">&amp;lt;</span><span class="s1">/style</span><span class="s6">&amp;gt;</span>
+<span class="s0">&lt;/code&gt;&lt;/pre&gt;</span>
+          <span class="s0">&lt;h3 </span><span class="s2">id</span><span class="s3">=&quot;-&quot;</span><span class="s0">&gt;</span><span class="s1">第三步：挑选相应图标并获取类名，应用于页面：</span><span class="s0">&lt;/h3&gt;</span>
+<span class="s0">&lt;pre&gt;&lt;code </span><span class="s2">class</span><span class="s3">=&quot;language-html&quot;</span><span class="s0">&gt;</span><span class="s6">&amp;lt;</span><span class="s1">svg class=&quot;icon&quot; aria-hidden=&quot;true&quot;</span><span class="s6">&amp;gt;</span>
+  <span class="s6">&amp;lt;</span><span class="s1">use xlink:href=&quot;#icon-xxx&quot;</span><span class="s6">&amp;gt;&amp;lt;</span><span class="s1">/use</span><span class="s6">&amp;gt;</span>
+<span class="s6">&amp;lt;</span><span class="s1">/svg</span><span class="s6">&amp;gt;</span>
+<span class="s0">&lt;/code&gt;&lt;/pre&gt;</span>
+          <span class="s0">&lt;/div&gt;</span>
+      <span class="s0">&lt;/div&gt;</span>
+
+    <span class="s0">&lt;/div&gt;</span>
+  <span class="s0">&lt;/div&gt;</span>
+  <span class="s0">&lt;script&gt;</span>
+  <span class="s1">$(document).ready(</span><span class="s7">function </span><span class="s1">() {</span>
+      <span class="s1">$(</span><span class="s3">'.tab-container .content:first'</span><span class="s1">).show()</span>
+
+      <span class="s1">$(</span><span class="s3">'#tabs li'</span><span class="s1">).click(</span><span class="s7">function </span><span class="s1">(e) {</span>
+        <span class="s7">var </span><span class="s1">tabContent = $(</span><span class="s3">'.tab-container .content'</span><span class="s1">)</span>
+        <span class="s7">var </span><span class="s1">index = $(</span><span class="s7">this</span><span class="s1">).index()</span>
+
+        <span class="s7">if </span><span class="s1">($(</span><span class="s7">this</span><span class="s1">).hasClass(</span><span class="s3">'active'</span><span class="s1">)) {</span>
+          <span class="s7">return</span>
+        <span class="s1">} </span><span class="s7">else </span><span class="s1">{</span>
+          <span class="s1">$(</span><span class="s3">'#tabs li'</span><span class="s1">).removeClass(</span><span class="s3">'active'</span><span class="s1">)</span>
+          <span class="s1">$(</span><span class="s7">this</span><span class="s1">).addClass(</span><span class="s3">'active'</span><span class="s1">)</span>
+
+          <span class="s1">tabContent.hide().eq(index).fadeIn()</span>
+        <span class="s1">}</span>
+      <span class="s1">})</span>
+    <span class="s1">})</span>
+  <span class="s0">&lt;/script&gt;</span>
+<span class="s0">&lt;/body&gt;</span>
+<span class="s0">&lt;/html&gt;</span>
+</pre>
+</body>
+</html>
